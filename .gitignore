@@ -1,0 +1,55 @@
+# Python bytecode and interpreter caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test, coverage, and analysis caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+
+# Build and package artifacts
+/build/
+/dist/
+/.eggs/
+/pip-wheel-metadata/
+*.egg-info/
+*.egg
+*.whl
+
+# Local virtual environments
+/.venv/
+/venv/
+/env/
+/ENV/
+/virtualenv/
+/env.bak/
+/venv.bak/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Disposable local experiments
+/playground/
